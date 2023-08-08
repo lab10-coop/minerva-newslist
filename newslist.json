@@ -1,0 +1,39 @@
+{
+  "version": "0.0.1",
+  "newsEntries": [
+    {
+      "id": 1,
+      "level": [1, 2, 3, 4, 5],
+      "individuallyCloseable": false,
+      "nextEntryID": 2,
+      "startDate": 1691506232,
+      "endDate:": 1791506232,
+      "publishDate": 1691506232,
+      "counterActive": true,
+      "counterEndDate": 1791506232,
+      "buttonActive": true,
+      "buttonText": "Our Website",
+      "buttonLink": "https://minerva.digital/",
+      "headline": "Welcome to Minerva!",
+      "infotext": "This is the infotext for the first entry.",
+      "imageUrl": "https://raw.githubusercontent.com/lab10-coop/minerva-newslist/main/images/default.jpg",
+    },
+    {
+      "id": 2,
+      "level": [1, 2, 3, 4, 5],
+      "individuallyCloseable": true,
+      "nextEntryID": 0,
+      "startDate": 1691506232,
+      "endDate:": 1791506232,
+      "publishDate": 1691506232,
+      "counterActive": true,
+      "counterEndDate": 1791506232,
+      "buttonActive": true,
+      "buttonText": "Our Farms",
+      "buttonLink": "https://farm.minerva.digital/",
+      "headline": "Farm MIVA!",
+      "infotext": "This is the infotext for the first entry.",
+      "imageUrl": "https://raw.githubusercontent.com/lab10-coop/minerva-newslist/main/images/default.jpg",
+    }
+  ]
+}
