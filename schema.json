@@ -49,8 +49,8 @@
           },
           "buttonText": {
             "type": "object",
-            "properties": {
-              "en": {
+            "patternProperties": {
+              "^[a-z]{2}$": {
                 "type": "string"
               }
             },
@@ -62,8 +62,8 @@
           },
           "headline": {
             "type": "object",
-            "properties": {
-              "en": {
+            "patternProperties": {
+              "^[a-z]{2}$": {
                 "type": "string"
               }
             },
@@ -71,8 +71,8 @@
           },
           "infotext": {
             "type": "object",
-            "properties": {
-              "en": {
+            "patternProperties": {
+              "^[a-z]{2}$": {
                 "type": "string"
               }
             },
