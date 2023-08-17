@@ -12,10 +12,16 @@
       "counterActive": true,
       "counterEndDate": 1791506232,
       "buttonActive": true,
-      "buttonText": "Our Website",
+      "buttonText": {
+        "en": "Our Website"
+      },
       "buttonLink": "https://minerva.digital/",
-      "headline": "Welcome to Minerva!",
-      "infotext": "This is the infotext for the first entry.",
+      "headline": {
+        "en": "Welcome to Minerva!"
+      },
+      "infotext": {
+        "en": "This is the infotext for the first entry."
+      },
       "imageUrl": "https://raw.githubusercontent.com/lab10-coop/minerva-newslist/main/images/default.jpg"
     },
     {
@@ -29,10 +35,16 @@
       "counterActive": true,
       "counterEndDate": 1791506232,
       "buttonActive": true,
-      "buttonText": "Our Farms",
+      "buttonText": {
+        "en": "Our Farms"
+      },
       "buttonLink": "https://farm.minerva.digital/",
-      "headline": "Farm MIVA!",
-      "infotext": "This is the infotext for the second entry. And the second entry has a way longer text. Just long enough to test if the line breaks work and if the UI can handle it well.",
+      "headline": {
+        "en": "Farm MIVA!"
+      },
+      "infotext": {
+        "en": "This is the infotext for the second entry. And the second entry has a way longer text. Just long enough to test if the line breaks work and if the UI can handle it well."
+      },
       "imageUrl": "https://raw.githubusercontent.com/lab10-coop/minerva-newslist/main/images/default.jpg"
     }
   ]
