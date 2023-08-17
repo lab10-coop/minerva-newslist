@@ -1,0 +1,91 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "version": {
+      "type": "string",
+      "pattern": "^(\\d+\\.\\d+\\.\\d+)$"
+    },
+    "newsEntries": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer"
+          },
+          "level": {
+            "type": "array",
+            "items": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 5
+            },
+            "uniqueItems": true
+          },
+          "individuallyCloseable": {
+            "type": "boolean"
+          },
+          "nextEntryID": {
+            "type": "integer"
+          },
+          "startDate": {
+            "type": "integer"
+          },
+          "endDate": {
+            "type": "integer"
+          },
+          "publishDate": {
+            "type": "integer"
+          },
+          "counterActive": {
+            "type": "boolean"
+          },
+          "counterEndDate": {
+            "type": "integer"
+          },
+          "buttonActive": {
+            "type": "boolean"
+          },
+          "buttonText": {
+            "type": "object",
+            "properties": {
+              "en": {
+                "type": "string"
+              }
+            },
+            "required": ["en"]
+          },
+          "buttonLink": {
+            "type": "string",
+            "format": "uri"
+          },
+          "headline": {
+            "type": "object",
+            "properties": {
+              "en": {
+                "type": "string"
+              }
+            },
+            "required": ["en"]
+          },
+          "infotext": {
+            "type": "object",
+            "properties": {
+              "en": {
+                "type": "string"
+              }
+            },
+            "required": ["en"]
+          },
+          "imageUrl": {
+            "type": "string",
+            "format": "uri"
+          }
+        },
+        "required": ["id", "level", "individuallyCloseable", "nextEntryID", "startDate", "endDate", "publishDate", "counterActive", "counterEndDate", "buttonActive", "buttonText", "buttonLink", "headline", "infotext", "imageUrl"]
+      }
+    }
+  },
+  "required": ["version", "newsEntries"]
+}
