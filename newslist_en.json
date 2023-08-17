@@ -16,7 +16,7 @@
       "buttonLink": "https://minerva.digital/",
       "headline": "Welcome to Minerva!",
       "infotext": "This is the infotext for the first entry.",
-      "imageUrl": "https://raw.githubusercontent.com/lab10-coop/minerva-newslist/main/images/default.jpg",
+      "imageUrl": "https://raw.githubusercontent.com/lab10-coop/minerva-newslist/main/images/default.jpg"
     },
     {
       "id": 2,
@@ -32,8 +32,8 @@
       "buttonText": "Our Farms",
       "buttonLink": "https://farm.minerva.digital/",
       "headline": "Farm MIVA!",
-      "infotext": "This is the infotext for the second entry.",
-      "imageUrl": "https://raw.githubusercontent.com/lab10-coop/minerva-newslist/main/images/default.jpg",
+      "infotext": "This is the infotext for the second entry.\n\nAnd the second entry has a way longer text. Just long enough to test if the line breaks work and if the UI can handle it well.",
+      "imageUrl": "https://raw.githubusercontent.com/lab10-coop/minerva-newslist/main/images/default.jpg"
     }
   ]
 }
