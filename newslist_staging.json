@@ -13,14 +13,17 @@
       "counterEndDate": 1791506232,
       "buttonActive": true,
       "buttonText": {
-        "en": "Our Website"
+        "en": "Our Website",
+        "de": "Unsere Webseite"
       },
       "buttonLink": "https://minerva.digital/",
       "headline": {
-        "en": "Welcome to Minerva!"
+        "en": "Welcome to Minerva!",
+        "de": "Willkommen bei Minerva!"
       },
       "infotext": {
-        "en": "This is the infotext for the first entry."
+        "en": "This is the infotext for the first entry.",
+        "de": "Dies ist der Infotext für den ersten Eintrag."
       },
       "imageUrl": "https://raw.githubusercontent.com/lab10-coop/minerva-newslist/main/images/default.jpg"
     },
@@ -31,19 +34,22 @@
       "nextEntryID": 0,
       "startDate": 1691506232,
       "endDate": 1791506232,
-      "publishDate": 1691506232,
-      "counterActive": true,
+      "publishDate": "",
+      "counterActive": false,
       "counterEndDate": 1791506232,
-      "buttonActive": true,
+      "buttonActive": false,
       "buttonText": {
-        "en": "Our Farms"
+        "en": "Our Farms",
+        "de": "Unsere Farmen"
       },
       "buttonLink": "https://farm.minerva.digital/",
       "headline": {
-        "en": "Farm MIVA!"
+        "en": "Farm MIVA!",
+        "de": "Farme MIVA!"
       },
       "infotext": {
-        "en": "This is the infotext for the second entry. And the second entry has a way longer text. Just long enough to test if the line breaks work and if the UI can handle it well."
+        "en": "This is the infotext for the second entry. And the second entry has a way longer text. Just long enough to test if the line breaks work and if the UI can handle it well.",
+        "de": "Dies ist der Infotext für den zweiten Eintrag. Und der zweite Eintrag hat einen um einiges längeren Text, um zu schauen ob Zeilenumbrücke auch korrekt funktionieren."
       },
       "imageUrl": "https://raw.githubusercontent.com/lab10-coop/minerva-newslist/main/images/default.jpg"
     }
