@@ -1,5 +1,5 @@
 {
-  "version": "0.0.1",
+  "version": "0.0.2",
   "newsEntries": [
     {
       "id": 1,
@@ -31,7 +31,7 @@
       "id": 2,
       "level": [1, 2, 3, 4, 5],
       "individuallyCloseable": true,
-      "nextEntryID": 0,
+      "nextEntryID": 1,
       "startDate": 1691506232,
       "endDate": 1791506232,
       "publishDate": 0,
@@ -52,6 +52,58 @@
         "de": "Dies ist der Infotext für den zweiten Eintrag. Und der zweite Eintrag hat einen um einiges längeren Text, um zu schauen ob Zeilenumbrücke auch korrekt funktionieren."
       },
       "imageUrl": "https://raw.githubusercontent.com/lab10-coop/minerva-newslist/main/images/default.jpg"
+    },
+    {
+      "id": 3,
+      "level": [1, 2],
+      "individuallyCloseable": true,
+      "nextEntryID": 1,
+      "startDate": 1695202579,
+      "endDate": 1703068579,
+      "publishDate": 1695202579,
+      "counterActive": true,
+      "counterEndDate": 1703068579,
+      "buttonActive": true,
+      "buttonText": {
+        "en": "Open PlayStore",
+        "de": "Öffne den PlayStore"
+      },
+      "buttonLink": "https://minerva.digital/PlayStore",
+      "headline": {
+        "en": "Update 1.9.1 is out!",
+        "de": "Update 1.9.1 verfügbar!"
+      },
+      "infotext": {
+        "en": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.\n\nAt vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+        "de": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.\n\nAt vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+      },
+      "imageUrl": "https://raw.githubusercontent.com/lab10-coop/minerva-newslist/main/images/default.jpg"
+    },
+    {
+      "id": 4,
+      "level": [4, 5],
+      "individuallyCloseable": false,
+      "nextEntryID": 1,
+      "startDate": 1691506232,
+      "endDate": 1791506232,
+      "publishDate": 0,
+      "counterActive": false,
+      "counterEndDate": 0,
+      "buttonActive": false,
+      "buttonText": {
+        "en": "",
+        "de": ""
+      },
+      "buttonLink": "",
+      "headline": {
+        "en": "English Headline!",
+        "de": "Deutsche Überschrift!"
+      },
+      "infotext": {
+        "en": "This is the infotext for the fourth entry. And the fourth entry has a way longer text. Just long enough to test if the line breaks work and if the UI can handle it well.",
+        "de": "Dies ist der Infotext für den vierte Eintrag. \n\n\nUnd der vierte Eintrag hat einen um einiges längeren Text, um zu schauen ob Zeilenumbrücke auch korrekt funktionieren."
+      },
+      "imageUrl": "https://raw.githubusercontent.com/lab10-coop/minerva-newslist/main/images/nothing.jpg"
     }
   ]
 }
