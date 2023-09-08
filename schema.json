@@ -57,8 +57,16 @@
             "required": ["en"]
           },
           "buttonLink": {
-            "type": "string",
-            "format": "uri"
+            "anyOf": [
+              {
+                "type": "string",
+                "format": "uri"
+              },
+              {
+                "type": "string",
+                "enum": [""]
+              }
+            ]
           },
           "headline": {
             "type": "object",
