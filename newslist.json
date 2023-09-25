@@ -4,8 +4,8 @@
     {
       "id": 1,
       "level": [1, 2, 3, 4, 5],
-      "individuallyCloseable": false,
-      "nextEntryID": 2,
+      "visibleFromVersion": 1,
+      "visibleToVersion": 1000,
       "startDate": 1691506232,
       "endDate": 1791506232,
       "publishDate": 1691506232,
@@ -30,8 +30,8 @@
     {
       "id": 2,
       "level": [1, 2, 3, 4, 5],
-      "individuallyCloseable": true,
-      "nextEntryID": 0,
+      "visibleFromVersion": 1,
+      "visibleToVersion": 1000,
       "startDate": 1691506232,
       "endDate": 1791506232,
       "publishDate": 0,
