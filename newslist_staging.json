@@ -1,5 +1,5 @@
 {
-  "version": "0.0.2",
+  "version": "0.0.3",
   "newsEntries": [
     {
       "id": 1,
@@ -7,7 +7,7 @@
       "visibleFromVersion": 1,
       "visibleToVersion": 1000,
       "startDate": 1691506232,
-      "endDate": 1791506232,
+      "endDate": 1691506235,
       "publishDate": 1691506232,
       "counterActive": true,
       "counterEndDate": 1791506232,
@@ -57,7 +57,7 @@
       "id": 3,
       "level": [1, 2],
       "visibleFromVersion": 1,
-      "visibleToVersion": 1000,
+      "visibleToVersion": 226,
       "startDate": 1695202579,
       "endDate": 1703068579,
       "publishDate": 1695202579,
@@ -70,8 +70,8 @@
       },
       "buttonLink": "https://minerva.digital/PlayStore",
       "headline": {
-        "en": "Update 1.9.1 is out!",
-        "de": "Update 1.9.1 verfügbar!"
+        "en": "Update 1.9.x is out!",
+        "de": "Update 1.9.x verfügbar!"
       },
       "infotext": {
         "en": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.\n\nAt vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
@@ -82,7 +82,7 @@
     {
       "id": 4,
       "level": [4, 5],
-      "visibleFromVersion": 1,
+      "visibleFromVersion": 227,
       "visibleToVersion": 1000,
       "startDate": 1691506232,
       "endDate": 1791506232,
@@ -96,8 +96,8 @@
       },
       "buttonLink": "",
       "headline": {
-        "en": "English Headline!",
-        "de": "Deutsche Überschrift!"
+        "en": "New English Headline!",
+        "de": "Neue Deutsche Überschrift!"
       },
       "infotext": {
         "en": "This is the infotext for the fourth entry. And the fourth entry has a way longer text. Just long enough to test if the line breaks work and if the UI can handle it well.",
